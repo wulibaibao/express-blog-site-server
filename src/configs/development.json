@@ -1,0 +1,17 @@
+{
+    "env": "development",
+    "dbConfig": {
+        "host": "localhost",
+        "database": "test",
+        "port": 27017
+    },
+    "secretKey": "secretkey_for_wulibaibao_blog_2022",
+    "log": {
+        "format": "dev",
+        "dir": "../logs"
+    },
+    "cors": {
+        "origin": true,
+        "credentials": true
+    }
+}

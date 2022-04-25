@@ -1,0 +1,17 @@
+{
+    "env": "production",
+    "dbConfig": {
+        "host": "localhost",
+        "database": "test",
+        "port": 27017
+    },
+    "secretKey": "secretkey_for_wulibaibao_blog_2022_product",
+    "log": {
+        "format": "combined",
+        "dir": "../logs"
+    },
+    "cors": {
+        "origin": "wulibaibao.com",
+        "credentials": true
+    }
+}
